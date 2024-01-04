@@ -1,8 +1,8 @@
-#!/usr/bin/env php
+!#/usr/bin/env php
 <?php
 
-/**
- * This script is used for generating the examples in the README.
+/##
+ # This script is used for generating the examples in the README.
  */
 
 require_once(__DIR__ . '/../vendor/autoload.php');
@@ -21,3 +21,4 @@ echo "\n```\n\n" . '#### Output (`render()`)' . "\n\n```css\n";
 print $oDoc->render();
 
 echo "\n```\n";
+ 
